@@ -1,0 +1,17 @@
+ #centerMessage {
+		position: relative;
+		width: 100px;
+		height: 50px;
+		top: 50%;
+		left: 50%;
+		margin-left: -50px; /* margin is -0.5 * dimension */
+		margin-top: -25px; 
+		font-weight: bold;
+		font-size: 250%;
+		text-decoration: underline;
+		-moz-text-decoration-color: red; /* Code for Firefox */
+		text-decoration-color: red;
+	}
+	body {
+		background-color: blue;
+	}
